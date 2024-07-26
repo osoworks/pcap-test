@@ -16,7 +16,7 @@ TCP packet이 잡히는 경우 "ETH + IP + TCP + DATA" 로 구성이 된다. 이
 
 이럴 때 각각의 Header 정보들이 structure로 잘 선언한 파일이 있으면 코드의 구성이 한결 간결해진다. 앞으로 가급적이면 네트워크 관련 코드를 작성할 할 때에는 libnet 혹은 자체적인 구조체를 선언하여 사용하도록 한다.
 
-http://packetfactory.openwall.net/projects/libnet > Latest Stable Version: 1.1.2.1 다운로드(libnet.tar.gz) > include/libnet/libnet-headers.h
+- http://packetfactory.openwall.net/projects/libnet > Latest Stable Version: 1.1.2.1 다운로드(libnet.tar.gz) > include/libnet/libnet-headers.h
 
 libnet-headers.h 안에 있는 본 과제와 직접적으로 관련된 구조체들 : struct libnet_ethernet_hdr (479 line), struct libnet_ipv4_hdr (647 line), struct libnet_tcp_hdr (1519 line)
 
